@@ -2,7 +2,7 @@ body{
     margin-top: 0px;
     width: 100%;
     height: 50px;
-    background-image: url(image/coffee2.jpg);
+    background-image: url(image/background.jpg);
 }
 
 
@@ -23,7 +23,20 @@ ul{
 
 li{
     float: right;
+}
 
+.stock{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.stockavailable{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav a{
@@ -158,9 +171,6 @@ text-align: center;
     display: inline-block;
 }
 
-.cards :hover{
-    box-shadow: 2px 2px 10px black ;
-}
 
 .image img{
     width: 300px;
@@ -178,3 +188,58 @@ text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.capp{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   background-color: antiquewhite;
+}
+
+.tab{
+    margin-left: 350px;
+}
+ 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 45%;
+    margin-left: 50px;
+  }
+
+  .image1 {
+   border-color: white;
+   border-radius: 25px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: aquamarine;
+    font-weight: 600px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: antiquewhite;
+  }
+.pictures{
+margin-left: 50px;
+}
+
+.product1{
+    background-color: antiquewhite;
+}
+
+.barcode{
+    margin-left: 350px;
+    width: 20px;
+    display: inline;
+}
+
+.scan{
+    display: inline;
+}
+
+a{
+    color: black;
+}
